@@ -1,6 +1,6 @@
 public class BmiServise {
-    public double calculate(double rost, double massa) {
-        double bmi = massa / (rost * rost);
+    public double calculate(double growth, double weight) {
+        double bmi = weight / (growth * growth);
         return bmi;
     }
 }
